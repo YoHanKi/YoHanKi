@@ -1,10 +1,10 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&color=A3DCBE&height=180&text=Strange_DEV&fontAlign=50&fontSize=50&fontColor=363636)
 ### 👋 Hi  
 <a href="s">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YoHanKi&exclude_repo=dkssud8150.github.io&layout=compact" width="35%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YoHanKi&exclude_repo=dkssud8150.github.io&layout=compact" width="50%"/>
 </a>
 <a href="s">
-  <img src="https://github-readme-stats.vercel.app/api?username=YoHanKi&show_icons=true" width="39%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YoHanKi&show_icons=true" width="50%" />
 </a>
 
 ## ✍ Stack
