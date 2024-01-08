@@ -1,13 +1,13 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&color=A3DCBE&height=180&text=Strange_DEV&fontAlign=50&fontSize=50&fontColor=363636)
 ### 👋 Hi  
 <a href="s">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YoHanKi&exclude_repo=dkssud8150.github.io&layout=compact" width="46.1%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YoHanKi&exclude_repo=dkssud8150.github.io&layout=compact" width="46.9%"/>
 </a>
 <a href="s">
-  <img src="https://github-readme-stats.vercel.app/api?username=YoHanKi&show_icons=true" width="51.5%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YoHanKi&show_icons=true" width="52.5%" />
 </a>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YoHanKi&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YoHanKi&theme=github-compact&radius=10)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ## ✍ Stack
 
