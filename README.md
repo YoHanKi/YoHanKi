@@ -1,5 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&color=A3DCBE&height=180&text=Strange_DEV&fontAlign=50&fontSize=50&fontColor=363636)
-### 👋 The early bird catches the Bug.  
+### 🦆The early bird catches the Bug.  
 <a href="s">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YoHanKi&exclude_repo=dkssud8150.github.io&layout=compact" width="46.8%"/>
 </a>
