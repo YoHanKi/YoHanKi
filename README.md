@@ -31,7 +31,7 @@
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=alcuz)](https://solved.ac/alcuz/)
 </a>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YoHanKi\&theme=github-compact\&radius=10)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YoHanKi\&theme=vue\&radius=30)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
 
