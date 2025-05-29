@@ -31,6 +31,7 @@
 <a href="s">
   <img src="https://github-readme-stats.vercel.app/api?username=YoHanKi&show_icons=true" width="52%" />
 </a>
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=alcuz)](https://solved.ac/alcuz/)
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YoHanKi\&theme=github-compact\&radius=10)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
