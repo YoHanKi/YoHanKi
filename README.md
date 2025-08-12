@@ -1,6 +1,6 @@
 # 🛠 Contributed
 
-### Redis Jedis
+### Redis Jedis [tag 6.1.0](https://github.com/redis/jedis/releases/tag/v6.1.0)
 * **Issue [#3566](https://github.com/redis/jedis/issues/3566)**: Reported unexpected behavior when using `xread` with `XReadParams` in binary streams.
 * **Pull Request [#4152](https://github.com/redis/jedis/pull/4152)**: Addressed test failures related to `setAndKeepttl()` in `BinaryValuesCommandsTest`, ensuring proper TTL behavior and compatibility with Redis 7.x and 8.0 stable builds.
 
