@@ -1,8 +1,12 @@
 # 🛠 Contributed
 
-### Redis Jedis [tag 6.1.0](https://github.com/redis/jedis/releases/tag/v6.1.0)
-* **Issue [#3566](https://github.com/redis/jedis/issues/3566)**: Reported unexpected behavior when using `xread` with `XReadParams` in binary streams.
-* **Pull Request [#4152](https://github.com/redis/jedis/pull/4152)**: Addressed test failures related to `setAndKeepttl()` in `BinaryValuesCommandsTest`, ensuring proper TTL behavior and compatibility with Redis 7.x and 8.0 stable builds.
+### Redis Jedis [v6.1.0](https://github.com/redis/jedis/releases/tag/v6.1.0)
+* **Issue [#3566](https://github.com/redis/jedis/issues/3566)**: `StreamEntry`(XREAD)가 `Map<String, String>` 기반이라 **illegal UTF-8을 포함한 바이너리 field/value가 손상(mangled)** 되는 문제를 제보하고, 손실 없는 `byte[]` 기반 API 필요성을 정리. 
+* **Pull Request [#4152](https://github.com/redis/jedis/pull/4152)**: **XREAD/XREADGROUP 바이너리 스트림 지원 추가**. `StreamEntryBinary (Map<byte[], byte[]>)` 도입, `xreadBinary*` / `xreadGroupBinary*` API 추가, BuilderFactory 및 Jedis/UnifiedJedis 구현 반영, RESP2/RESP3 + (Jedis/Cluster/Pooled) 커버하는 테스트 구조로 확장.
+
+### Redis Lettuce (lettuce-core)
+* **Issue [#3526](https://github.com/redis/lettuce/issues/3526)**: `ft.search`에서 큰 응답(~200KB) 처리 시 Netty pooled buffer 재사용 때문에 결과가 깨지거나(JVM 결과 garbage) 환경에 따라 SIGSEGV로 크래시가 날 수 있는 메모리 corruption 이슈.
+* **Pull Request [#3664](https://github.com/redis/lettuce/pull/3664)**: RediSearch 응답 파싱에서 `EncodedComplexOutput`이 pooled `ByteBuffer`의 read-only view를 저장하던 구조를 **heap으로 copy**하도록 변경해 buffer lifecycle에 의한 corruption/crash를 방지. 재현/회귀 방지용으로 `RediSearchIntegrationTests`에 large JSON payload stress test(`testSearchWithLargeJsonPayloads`) 추가.
 
 
 # ✍ Stack
